@@ -2,6 +2,7 @@
 using System;
 using UIKit;
 using Xamarin.Bindings.iosUI;
+using xamarin_business_logic;
 
 
 namespace xamarin_ios_mvp
@@ -21,9 +22,9 @@ namespace xamarin_ios_mvp
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
-            image = UIImage.FromBundle(getImage());
+            image = UIImage.FromBundle(BusinessLogic.getImage(toggle));
             lightControl = new LightControl(View.Frame);
-            lightControl.SetLabelTextWithText("Living Room");
+            lightControl.SetLabelTextWithText(BusinessLogic.getRoom());
             lightControl.SetImageWithImage(image);
             lightControl.SetSwitchValueWithValue(toggle);
             View.AddSubview(lightControl);
@@ -34,18 +35,6 @@ namespace xamarin_ios_mvp
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
-        }
-
-        String getImage()
-        {
-            if (toggle)
-            {
-                return "lightOn.png";
-            }
-            else
-            {
-                return "lightOff.png";
-            }
         }
 
     }

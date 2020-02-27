@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_ios_mvp", "xamarin_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iosBinding", "iosBinding\iosBinding.csproj", "{D91B031E-9AA8-4812-9F64-F11241EF3C49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin_business_logic", "..\xamarin_business_logic\xamarin_business_logic\xamarin_business_logic.csproj", "{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -29,5 +31,13 @@ Global
 		{D91B031E-9AA8-4812-9F64-F11241EF3C49}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{D91B031E-9AA8-4812-9F64-F11241EF3C49}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{D91B031E-9AA8-4812-9F64-F11241EF3C49}.Release|iPhone.Build.0 = Release|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

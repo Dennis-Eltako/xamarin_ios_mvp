@@ -68,9 +68,6 @@
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="Xamarin.Essentials" Version="1.4.0" />
-      <PackageReference Include="Xamarin.Swift">
-        <Version>1.0.4</Version>
-      </PackageReference>
     </ItemGroup>
     <ItemGroup>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -146,6 +143,10 @@
       <ProjectReference Include="..\iosBinding\iosBinding.csproj">
         <Project>{D91B031E-9AA8-4812-9F64-F11241EF3C49}</Project>
         <Name>iosBinding</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\..\xamarin_business_logic\xamarin_business_logic\xamarin_business_logic.csproj">
+        <Project>{D83FFCF9-5D11-4B26-BB3E-C2A4EB41E55E}</Project>
+        <Name>xamarin_business_logic</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
